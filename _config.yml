@@ -1,3 +1,13 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+
+patternbot:
+  title: "Ceci Bowles"
+  description: |
+    A small description of who I am and what I do.
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap"
+  colors:
+    patterns:
+      buttons.ghost-white: "--color-secondary"

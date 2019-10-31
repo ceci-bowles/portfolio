@@ -1,0 +1,32 @@
+.btn {
+  background-color: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  color: var(--color-secondary-medium);
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary-light);
+  border-color: var(--color-secondary-light);
+}
+
+.btn:active {
+  transform: translate(0, 2px);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-ghost-white {
+  background-color: transparent;
+  color: var(--color-secondary-medium);
+  border: 3px solid var(--color-secondary-medium);
+}
+a:focus {
+  outline: 3px solid #000;
+}

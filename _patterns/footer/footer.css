@@ -1,0 +1,40 @@
+.water-bottom-2 {
+  top: -83px;
+  transform: scale(1.1);
+  z-index: 29;
+}
+
+.water-middle-2 {
+  top: -93px;
+  transform: scale(1.1);
+  z-index: 27;
+}
+
+.water-top-2 {
+  top: -98px;
+  transform: scale(1.1);
+  z-index: 23;
+}
+
+.wave-1 {
+  top: -38px;
+  transform: scale(1.1);
+  z-index: 22;
+}
+
+.footer-content, .footer-content h3 {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-medium);
+}
+
+social-media {
+  color: var(--color-primary-light);
+}
+
+@media only screen and (min-width: 45em) {
+
+  .about {
+    width: 48%;
+  }
+
+}

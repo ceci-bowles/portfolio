@@ -1,0 +1,138 @@
+:root {
+  --color-primary: #32646b;
+  --color-primary-light: #b0c6d1;
+  --color-secondary: #000;
+  --color-secondary-medium: #fff;
+  --color-secondary-light: #f19c49;
+
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Maven Pro", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+/* heading formatting */
+h1, h2, h3 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+}
+/* list formatting */
+ul {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+
+ol {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dl {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dt {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+dd {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* link formatting */
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* blockquote formatting */
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+q {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* emphasis and edits formatting */
+
+em, i, dfn {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+strong, b {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+del, s {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: line;
+}
+
+ins, u {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: underline;
+}
+
+abbr {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: uppercase;
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
