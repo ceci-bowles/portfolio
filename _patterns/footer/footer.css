@@ -1,18 +1,29 @@
+.social-media-icon {
+  fill: var(--color-primary-light);
+}
+
+.instagram {
+  fill: var(--color-primary-light);
+}
+
 .water-bottom-2 {
   top: -83px;
   transform: scale(1.1);
+  animation: wiggle 4s linear infinite;
   z-index: 29;
 }
 
 .water-middle-2 {
   top: -93px;
   transform: scale(1.1);
+  animation: reverse-wiggle 4s linear infinite;
   z-index: 27;
 }
 
 .water-top-2 {
   top: -98px;
   transform: scale(1.1);
+  animation: wiggle 4s linear infinite;
   z-index: 23;
 }
 
@@ -29,6 +40,44 @@
 
 social-media {
   color: var(--color-primary-light);
+}
+
+@keyframes wiggle {
+
+  0% {
+    transform: translateX(0em) scale(1.1);
+  }
+
+  25% {
+    transform: translateX(0.25em) scale(1.1);
+  }
+
+  75% {
+    transform: translateX(-0.25em) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0em) scale(1.1);
+  }
+}
+
+@keyframes reverse-wiggle {
+
+  0% {
+    transform: translateX(0em) scale(1.1);
+  }
+
+  25% {
+    transform: translateX(-0.25em) scale(1.1);
+  }
+
+  75% {
+    transform: translateX(0.25em) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0em) scale(1.1);
+  }
 }
 
 @media only screen and (min-width: 45em) {

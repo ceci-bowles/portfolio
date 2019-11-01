@@ -1,0 +1,54 @@
+.buzz {
+  fill: #33596D;
+}
+
+.cat {
+  fill: var(--color-primary-light);
+}
+
+.glenn {
+  fill: var(--color-primary);
+}
+
+.ellie {
+  fill: #ABD2C8;
+}
+
+svg:active {
+  fill: var(--color-secondary-light);
+  transform: scale(1.1);
+}
+
+.current:active {
+  fill: var(--color-secondary-light);
+  transform: scale(1.1);
+}
+
+h3 {
+  text-align: left;
+  color: #33596D;
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+#peice-1-control:checked ~ .carousel-inner #peice-1,
+#peice-2-control:checked ~ .carousel-inner #peice-2,
+#peice-3-control:checked ~ .carousel-inner #peice-3,
+#peice-4-control:checked ~ .carousel-inner #peice-4 {
+  display: block;
+}
+
+.carousel-btn {
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+}
+
+#peice-1-control:checked ~ .carousel-inner [for="peice-1-control"],
+#peice-2-control:checked ~ .carousel-inner [for="peice-2-control"],
+#peice-3-control:checked ~ .carousel-inner [for="peice-3-control"],
+#peice-4-control:checked ~ .carousel-inner [for="peice-4-control"] {
+  background-color: #ED7954;
+  border: 2px solid #ED7954;
+}
