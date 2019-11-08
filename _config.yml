@@ -13,3 +13,5 @@ patternbot:
       buttons.ghost-white: "--color-primary"
   rationales:
   layouts:
+    default: |
+      The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
