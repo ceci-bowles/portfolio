@@ -83,6 +83,13 @@ div .sub-header {
   top: 301px;
 }
 
+nav a:hover {
+  color: var(--color-secondary-light);
+  font-weight: bold;
+}
+
+
+
 @keyframes wiggle {
 
   0% {

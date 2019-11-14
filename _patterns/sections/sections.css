@@ -14,7 +14,7 @@
   fill: #ABD2C8;
 }
 
-svg:active {
+svg::selection {
   fill: var(--color-secondary-light);
   transform: scale(1.1);
 }
@@ -31,6 +31,14 @@ h3 {
 
 .carousel-items > div {
   display: none;
+}
+
+.blue {
+  background-color: #B0C6D1;
+}
+
+.icon-section {
+  width: 100%;
 }
 
 #peice-1-control:checked ~ .carousel-inner #peice-1,

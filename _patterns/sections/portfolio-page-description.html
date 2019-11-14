@@ -1,10 +1,10 @@
-<div class="grid gutter">
+<div class="grid gutter pad-t">
   <div class="unit xs-1 s-1-2 m-1-3 gutter">
-    <img class="img-flex" src="/images/500g-select-spread.jpg" alt="">
+    <img class="img-flex" src="{{page.image}}" alt="">
   </div>
   <div class="unit xs-1 s-1-2 m-2-3">
-    <h3 class="text-upper bold">All the buzz</h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    {% pattern buttons/basic %}
+    <h3 class="text-upper bold">{{page.name}}</h3>
+    <p>{{page.description}}</p>
+    {% pattern buttons/basic heading="Check it out" url={{page.link}} aria="Check it out" %}
   </div>
 </div>

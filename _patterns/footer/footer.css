@@ -7,21 +7,21 @@
 }
 
 .water-bottom-2 {
-  top: -83px;
+  bottom: -180.5em;
   transform: scale(1.1);
   animation: wiggle 4s linear infinite;
   z-index: 29;
 }
 
 .water-middle-2 {
-  top: -93px;
+  bottom: -180em;
   transform: scale(1.1);
   animation: reverse-wiggle 4s linear infinite;
   z-index: 27;
 }
 
 .water-top-2 {
-  top: -98px;
+  bottom: -179em;
   transform: scale(1.1);
   animation: wiggle 4s linear infinite;
   z-index: 23;
@@ -40,6 +40,14 @@
 
 social-media {
   color: var(--color-primary-light);
+}
+
+ul li {
+  transition: all .2s ease-in-out;
+}
+
+ul li:hover {
+  transform: scale(1.1);
 }
 
 @keyframes wiggle {

@@ -1,0 +1,22 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Ceci Bowles <contact@cecibowles.design>
+Site: cecibowles.design
+Github: https://github.com/ceci-bowles
+Instagram: @ceci-bowles
+---
+
+# THANKS
+
+---
+
+# TECHNOLOGY
+
+## Software
+- Git + GitHub
+- Jekyll
+
+## Hosting
+-Netlify

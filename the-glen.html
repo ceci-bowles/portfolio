@@ -1,0 +1,41 @@
+---
+layout: portfolio-page
+highlight_nav: index
+---
+---
+layout: portfolio-page
+highlight_nav: index
+---
+<div role="main">
+  <div class="block">
+    {% pattern banners/portfolio-header %}
+  </div>
+
+  <i class="text-center block">
+    <svg class="cat current"><use xlink:href="/images/icons.svg#cat"></use></svg>
+  </i>
+  <div class="pad-b-1-2">
+    {% pattern banners/section-header-paragraph heading="The Glen" text="branding and app design" %}
+  </div>
+  <div class="">
+    <img class="img-flex web-mockup" src="/images/the-glen-glass.png" alt="">
+    {% pattern sections/portfolio-piece-description %}
+  </div>
+  <img class="img-flex web-mockup" src="/images/cat-cafe/whale-graphic-1.png" alt="">
+  <div class="blue">
+    <div class="">
+      {% pattern sections/portfolio-piece-description %}
+      {% pattern sections/portfolio-carasol %}
+    </div>
+    <div class="">
+      {% pattern sections/portfolio-piece-description %}
+      <div class="gutter">
+        {% pattern sections/cat-cafe-interaction %}
+      </div>
+    </div>
+  </div>
+  <img class="img-flex web-mockup" src="/images/cat-cafe/whale-graphic-2.png" alt="">
+  <div class="">
+    {% pattern sections/portfolio-carasol %}
+  </div>
+</div>

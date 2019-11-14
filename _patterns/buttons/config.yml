@@ -1,0 +1,46 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the pimary call-to-action on the screen.
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+    fields:
+      - name: heading
+        type: string
+        example: "Check it out"
+      - name: url
+        type: url
+        example: "/feline-cafe/"
+      - name: aria
+        type: string
+        example: "Check it out"
+  ghost-white:
+    title: "Ghost White"
+    description: |
+      The ghost white button should always be used in front of dark backgrounds. It is a secondary button for less important content.
+    fields:
+      - name: text
+        type: string
+        example: "Check it out"
+      - name: url
+        type: url
+        example: "/feline-cafe/"
+      - name: aria
+        type: string
+        example: "Check it out"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button should always be used in front of light backgrounds. It is a secondry betton for less impotant content.
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"

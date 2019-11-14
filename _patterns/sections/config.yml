@@ -1,0 +1,24 @@
+title: "Sections"
+description: |
+  Sections should be used throughout the website to represent different parts of content.
+patterns:
+  cat-cafe-interaction:
+    title: "Cat Cafe Interaction Section"
+    description: |
+      The cat cafe interaction section should be used in the feline cafe portfolio page of the website to demonstrate the functionality of the element of the product.
+  portfolio-carasol:
+    title: "Portfolio Carasol"
+    description: |
+      The portfolio carasol section should be used in the portfolio pages of the website to cycle through the images that display the product pieces.
+  portfolio-icon-selectors:
+    title: "Portfolio Icon Selectors"
+    description: |
+      The portfolio icon selectors section should be used in the home page of the website to lead to the individual portfolio pieces of the website.
+  portfolio-page-description:
+    title: "Portfolio Page Description"
+    description: |
+      The portfolio page description section should be used in the home page of the website to give a small intro to the portfolio page.
+  portfolio-piece-description:
+    title: "Portfolio Piece Description"
+    description: |
+      The portfolio piece description section should be used in the portfolio page of the website to describe different images on the portfolio page.

@@ -1,0 +1,28 @@
+title: "Banners"
+description: |
+  Banners should be used in situations when content of importance needs to be emphasized throughout the website.
+
+patterns:
+  section-header-paragraph:
+    title: "Section Header Paragraph"
+    description: |
+      The section header paragraph banner should be used to indicate which portfolio piece is below in the page and what it will entale. This will be used at the begining of each portfolio page.
+    fields:
+      - name: heading
+        type: string
+        example: "All the buzz"
+      - name: text
+        type: string
+        example: "honey brand and web design"
+  section-header:
+    title: "Section Header"
+    description: |
+      The section header banner should be used to indicate the different sections of the website.
+    fields:
+      - name: heading
+        type: string
+        example: "Portfolio"
+  portfolio-header:
+    title: "Portfolio Header"
+    description: |
+      The portfolio header banner is an introduction to each portfolio page of the website. It is a decorative element of the website and should not be used otherwise.
