@@ -61,7 +61,7 @@ patterns:
       type: string
       example: "The Feline Café is located in Ottawa and is a foster home for cats without a home, while serving coffee to support the funding and bring customers in to adopt the cats. As a personal project I wanted to think of a way that would be helpful in assisting the company in getting the cats adopted. This required a website redesign that highlighted the service offered and allowed users to meet the cats and learn about them in a fun, interactive banner, rather then just reading a list about them. This lead to an interactive website that the user could click on the cats and learn about them. In the future this could be developed into advertisements and games to promote the company."
   second-portfolio-piece-description:
-    title: "2nd Portfolio Piece Description"
+    title: "Second Portfolio Piece Description"
     description: |
       The portfolio piece description section should be used in the portfolio page of the website to describe different images on the portfolio page.
     - name: number
