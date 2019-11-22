@@ -14,14 +14,15 @@
   fill: #ABD2C8;
 }
 
-svg::selection {
+/* svg:hover {
   fill: var(--color-secondary-light);
   transform: scale(1.1);
-}
+} */
 
-.current:active {
+.current:hover {
   fill: var(--color-secondary-light);
   transform: scale(1.1);
+  transition: all .1s ease-in-out;
 }
 
 h3 {
@@ -34,11 +35,35 @@ h3 {
 }
 
 .blue {
-  background-color: #B0C6D1;
+  background: linear-gradient(0deg, rgba(31,48,88,1) 0%, rgba(176,198,208,1) 100%);
+}
+
+.white {
+  color: var(--color-secondary-medium);
 }
 
 .icon-section {
   width: 100%;
+  z-index: 300;
+}
+
+.portfolio-piece-icon {
+  fill: var(--color-secondary-light);
+}
+
+.piece-description-dark {
+  background-color: var(--color-secondary);
+  opacity: 0.5;
+  border-radius: 7px;
+}
+
+.portfolio-description {
+  max-width: 50em;
+  display: block;
+}
+
+.padding-icons {
+  padding-bottom: 10em;
 }
 
 #peice-1-control:checked ~ .carousel-inner #peice-1,
@@ -50,6 +75,7 @@ h3 {
 
 .carousel-btn {
   border: 2px solid var(--color-primary);
+  background-color: var(--color-secondary-medium);
   border-radius: 50%;
 }
 
@@ -57,6 +83,21 @@ h3 {
 #peice-2-control:checked ~ .carousel-inner [for="peice-2-control"],
 #peice-3-control:checked ~ .carousel-inner [for="peice-3-control"],
 #peice-4-control:checked ~ .carousel-inner [for="peice-4-control"] {
+  background-color: #ED7954;
+  border: 2px solid #ED7954;
+}
+
+#peice-1-control-2:checked ~ .carousel-inner-2 #peice-1-2,
+#peice-2-control-2:checked ~ .carousel-inner-2 #peice-2-2,
+#peice-3-control-2:checked ~ .carousel-inner-2 #peice-3-2,
+#peice-4-control-2:checked ~ .carousel-inner-2 #peice-4-2{
+  display: block;
+}
+
+#peice-1-control-2:checked ~ .carousel-inner-2 [for="peice-1-control-2"],
+#peice-2-control-2:checked ~ .carousel-inner-2 [for="peice-2-control-2"],
+#peice-3-control-2:checked ~ .carousel-inner-2 [for="peice-3-control-2"],
+#peice-4-control-2:checked ~ .carousel-inner-2 [for="peice-4-control-2"] {
   background-color: #ED7954;
   border: 2px solid #ED7954;
 }

@@ -26,53 +26,52 @@ div .sub-header {
 .mountains {
   transform: scale(1.1);
   z-index: 9;
-  top: 188px;
 }
 
 .underwater-1 {
   transform: scale(1.1);
   z-index: 25;
-  top: 300px;
+  top: 120px;
 }
 
 .underwater-3 {
   animation: reverse-wiggle 4s linear infinite;
   z-index: 32;
-  top: 339px;
+  top: 133px;
 }
 
 .water-bottom {
-  top: 246px;
+  top: 118px;
   animation: wiggle 4s linear infinite;
   z-index: 29;
 }
 
 .water-middle {
-  top: 227px;
+  top: 107px;
   animation: reverse-wiggle 4s linear infinite;
   z-index: 27;
 }
 
 .water-top {
-  top: 226px;
+  top: 106px;
   animation: wiggle 4s linear infinite;
   z-index: 23;
 }
 
 .whale-2 {
-  top: 271px;
+  top: 136px;
   animation: whale2 4s linear infinite;
   z-index: 30;
 }
 
 .top-layer {
-  top: 250px;
+  top: 118px;
   transform: scale(1.1);
   z-index: 32;
 }
 
 .whale-1 {
-  top: 271px;
+  top: 135px;
   animation: whale1 4s linear infinite;
   z-index: 33;
 }
@@ -80,7 +79,7 @@ div .sub-header {
 .underwater-2 {
   animation: wiggle 4s linear infinite;
   z-index: 34;
-  top: 301px;
+  top: 119px;
 }
 
 nav a:hover {
@@ -88,7 +87,9 @@ nav a:hover {
   font-weight: bold;
 }
 
-
+.pad-portfolio {
+  padding-bottom: 1em;
+}
 
 @keyframes wiggle {
 
@@ -164,4 +165,93 @@ nav a:hover {
   100% {
     transform: translateY(0em) rotate(0deg) scale(1.1);
   }
+}
+
+@media only screen and (min-width: 25em) {
+
+  .pad-portfolio {
+    padding-bottom: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad-portfolio {
+    padding-bottom: 3em;
+  }
+
+  .mountains {
+    transform: scale(1.1);
+    z-index: 9;
+  }
+
+  .underwater-1 {
+    transform: scale(1.1);
+    z-index: 25;
+    top: 280px;
+  }
+
+  .underwater-3 {
+    animation: reverse-wiggle 4s linear infinite;
+    z-index: 32;
+    top: 319px;
+  }
+
+  .water-bottom {
+    top: 246px;
+    animation: wiggle 4s linear infinite;
+    z-index: 29;
+  }
+
+  .water-middle {
+    top: 207px;
+    animation: reverse-wiggle 4s linear infinite;
+    z-index: 27;
+  }
+
+  .water-top {
+    top: 206px;
+    animation: wiggle 4s linear infinite;
+    z-index: 23;
+  }
+
+  .whale-2 {
+    top: 251px;
+    animation: whale2 4s linear infinite;
+    z-index: 30;
+  }
+
+  .top-layer {
+    top: 230px;
+    transform: scale(1.1);
+    z-index: 32;
+  }
+
+  .whale-1 {
+    top: 251px;
+    animation: whale1 4s linear infinite;
+    z-index: 33;
+  }
+
+  .underwater-2 {
+    animation: wiggle 4s linear infinite;
+    z-index: 34;
+    top: 281px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .pad-portfolio {
+    padding-bottom: 4em;
+  }
+
+
 }

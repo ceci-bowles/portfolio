@@ -1,0 +1,42 @@
+---
+layout: portfolio-page
+highlight_nav: index
+---
+<div role="main">
+  <div class="block">
+    {% pattern banners/portfolio-header %}
+  </div>
+
+  <i class="text-center block">
+    <svg class="ellie"><use xlink:href="/images/icons.svg#ellie"></use></svg>
+  </i>
+  <div class="pad-b-1-2">
+    {% pattern banners/section-header-paragraph heading="Ellie Personal Flight Assistant" text="app research and design" %}
+  </div>
+  <div class="">
+    <img class="img-flex web-mockup" src="/images/cat-cafe/web-mockup.png" alt="">
+    {% pattern sections/portfolio-piece-description %}
+  </div>
+  <img class="img-flex web-mockup" src="/images/goose-top.svg" alt="">
+  <div class="blue">
+    <div class="">
+      {% pattern sections/portfolio-piece-description-2 %}
+      {% pattern sections/portfolio-carasol image="cafe-web-sketch" image-1="cafe-menu-page" image-2="interactive-cat" image-3="initial-web-design" %}
+    </div>
+    <div class="">
+      {% pattern sections/portfolio-piece-description-2 %}
+      <div class="gutter">
+        {% pattern sections/cat-cafe-interaction %}
+      </div>
+    </div>
+  </div>
+  <img class="img-flex web-mockup" src="/images/goose-bottom.svg" alt="">
+  <div class="">
+    {% pattern sections/portfolio-piece-description %}
+    {% pattern sections/portfolio-carasol-2 image="cat-cafe/7-website" image-1="cat-cafe/3-business-cards" image-2="cat-cafe/4-cup" image-3="cat-cafe/2-ad" %}
+  </div>
+  <div class="push-2">
+    {% pattern banners/section-header heading="Portfolio" %}
+    {% pattern sections/portfolio-icon-selectors %}
+  </div>
+</div>

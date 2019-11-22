@@ -7,28 +7,28 @@
 }
 
 .water-bottom-2 {
-  bottom: -180.5em;
+  bottom: -76%;
   transform: scale(1.1);
   animation: wiggle 4s linear infinite;
   z-index: 29;
 }
 
 .water-middle-2 {
-  bottom: -180em;
+  bottom: -75%;
   transform: scale(1.1);
   animation: reverse-wiggle 4s linear infinite;
   z-index: 27;
 }
 
 .water-top-2 {
-  bottom: -179em;
+  bottom: -73%;
   transform: scale(1.1);
   animation: wiggle 4s linear infinite;
   z-index: 23;
 }
 
 .wave-1 {
-  top: -38px;
+  top: -28px;
   transform: scale(1.1);
   z-index: 22;
 }
@@ -48,6 +48,10 @@ ul li {
 
 ul li:hover {
   transform: scale(1.1);
+}
+
+.portrait {
+  max-width: 15em;
 }
 
 @keyframes wiggle {
@@ -88,7 +92,7 @@ ul li:hover {
   }
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 60em) {
 
   .about {
     width: 48%;

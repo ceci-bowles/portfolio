@@ -10,6 +10,34 @@ patterns:
     title: "Portfolio Carasol"
     description: |
       The portfolio carasol section should be used in the portfolio pages of the website to cycle through the images that display the product pieces.
+    fields:
+    - name: image
+      type: string
+      example: "placeholder"
+    - name: image-1
+      type: string
+      example: "placeholder"
+    - name: image-2
+      type: string
+      example: "placeholder"
+    - name: image-3
+      type: string
+      example: "placeholder"
+  portfolio-carasol-2:
+    title: "Portfolio Carasol 2"
+    fields:
+    - name: image
+      type: string
+      example: "cat-cafe/7-website"
+    - name: image-1
+      type: string
+      example: "cat-cafe/7-website"
+    - name: image-2
+      type: string
+      example: "cat-cafe/7-website"
+    - name: image-3
+      type: string
+      example: "cat-cafe/7-website"
   portfolio-icon-selectors:
     title: "Portfolio Icon Selectors"
     description: |
@@ -22,3 +50,26 @@ patterns:
     title: "Portfolio Piece Description"
     description: |
       The portfolio piece description section should be used in the portfolio page of the website to describe different images on the portfolio page.
+    fields:
+    - name: image
+      type: string
+      example: "#1"
+    - name: heading
+      type: string
+      example: "Where I Started"
+    - name: text
+      type: string
+      example: "The Feline Café is located in Ottawa and is a foster home for cats without a home, while serving coffee to support the funding and bring customers in to adopt the cats. As a personal project I wanted to think of a way that would be helpful in assisting the company in getting the cats adopted. This required a website redesign that highlighted the service offered and allowed users to meet the cats and learn about them in a fun, interactive banner, rather then just reading a list about them. This lead to an interactive website that the user could click on the cats and learn about them. In the future this could be developed into advertisements and games to promote the company."
+  second-portfolio-piece-description:
+    title: "2nd Portfolio Piece Description"
+    description: |
+      The portfolio piece description section should be used in the portfolio page of the website to describe different images on the portfolio page.
+    - name: title
+      type: string
+      example: "02"
+    - name: heading
+      type: string
+      example: "the changes"
+    - name: text
+      type: string
+      example: "Lorem ipsum dolor sit amet, consectetuer adipiLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. ldignis"
