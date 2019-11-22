@@ -64,7 +64,7 @@ patterns:
     title: "2nd Portfolio Piece Description"
     description: |
       The portfolio piece description section should be used in the portfolio page of the website to describe different images on the portfolio page.
-    - name: title
+    - name: number
       type: string
       example: "02"
     - name: heading
