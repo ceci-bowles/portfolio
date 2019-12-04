@@ -26,3 +26,10 @@ patterns:
     title: "Portfolio Header"
     description: |
       The portfolio header banner is an introduction to each portfolio page of the website. It is a decorative element of the website and should not be used otherwise.
+    fields:
+      - name: heading
+        type: string
+        example: "lets take a"
+      - name: text
+        type: string
+        example: "dive in"

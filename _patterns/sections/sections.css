@@ -69,7 +69,7 @@ h3 {
 
 .portfolio-description {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 40em;
   display: block;
 }
 
@@ -99,8 +99,12 @@ a:focus {
 }
 
 .carousel-btn {
-  border: 2px solid var(--color-primary);
-  background-color: var(--color-secondary-medium);
+  border: 3px solid var(--color-secondary-medium);
+  border-radius: 50%;
+}
+
+.carousel-btn-2 {
+  border: 3px solid var(--color-primary);
   border-radius: 50%;
 }
 
@@ -125,4 +129,12 @@ a:focus {
 #peice-4-control-2:checked ~ .carousel-inner-2 [for="peice-4-control-2"] {
   background-color: #ED7954;
   border: 2px solid #ED7954;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .portfolio-description {
+    max-width: 50em;
+  }
+
 }
