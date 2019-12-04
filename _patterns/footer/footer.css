@@ -38,6 +38,11 @@
   color: var(--color-secondary-medium);
 }
 
+.footer-content {
+  position: relative;
+  z-index: 4000;
+}
+
 social-media {
   color: var(--color-primary-light);
 }
@@ -52,6 +57,15 @@ ul li:hover {
 
 .portrait {
   max-width: 15em;
+}
+
+.about-me {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a:focus {
+  outline: 3px solid var(--color-secondary-medium);
 }
 
 @keyframes wiggle {

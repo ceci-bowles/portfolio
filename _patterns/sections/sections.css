@@ -30,8 +30,18 @@ h3 {
   color: #33596D;
 }
 
+.carousel {
+  position: relative;
+}
+
 .carousel-items > div {
   display: none;
+}
+
+.carousel-input,
+.carousel-2-input {
+  z-index: 4000;
+  bottom: 0;
 }
 
 .blue {
@@ -58,12 +68,27 @@ h3 {
 }
 
 .portfolio-description {
+  margin: 0 auto;
   max-width: 50em;
   display: block;
 }
 
 .padding-icons {
   padding-bottom: 10em;
+}
+
+.cat-1 {
+  background-color: rgba(1,1,1,0.5);
+  color: var(--color-secondary-medium);
+  top: 15%;
+  right: 35%;
+  border-radius: 5px;
+  max-width: 11em;
+  display: none;
+}
+
+a:focus {
+  outline: 3px solid #000;
 }
 
 #peice-1-control:checked ~ .carousel-inner #peice-1,
