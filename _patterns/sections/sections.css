@@ -1,27 +1,26 @@
 .buzz {
   fill: #33596D;
+  transform: scale(0.8);
 }
 
 .cat {
   fill: var(--color-primary-light);
+  transform: scale(0.8);
 }
 
 .glenn {
   fill: var(--color-primary);
+  transform: scale(0.8);
 }
 
 .ellie {
   fill: #ABD2C8;
+  transform: scale(0.8);
 }
-
-/* svg:hover {
-  fill: var(--color-secondary-light);
-  transform: scale(1.1);
-} */
 
 .current:hover {
   fill: var(--color-secondary-light);
-  transform: scale(1.1);
+  transform: scale(0.9);
   transition: all .1s ease-in-out;
 }
 
@@ -59,6 +58,7 @@ h3 {
 
 .portfolio-piece-icon {
   fill: var(--color-secondary-light);
+  transform: scale(0.8);
 }
 
 .piece-description-dark {
@@ -129,6 +129,34 @@ a:focus {
 #peice-4-control-2:checked ~ .carousel-inner-2 [for="peice-4-control-2"] {
   background-color: #ED7954;
   border: 2px solid #ED7954;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .buzz {
+    transform: scale(1);
+  }
+
+  .cat {
+    transform: scale(1);
+  }
+
+  .glenn {
+    transform: scale(1);
+  }
+
+  .ellie {
+    transform: scale(1);
+  }
+
+  .portfolio-piece-icon {
+    transform: scale(1);
+  }
+
+  .current:hover {
+    transform: scale(1.1);
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
