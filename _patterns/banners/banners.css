@@ -4,7 +4,9 @@
 
 .portfolio-header-content {
   top: 43%;
-  right: 37%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .four-oh-four-text {
