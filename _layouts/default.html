@@ -21,8 +21,10 @@
 <body>
 
   {% pattern header/header %}
-  {{content}}
-  <div class="" id="contact">
+  <div id="main" role="main" tabindex="0">
+    {{content}}
+  </div>
+  <div class="" id="contact" role="contentinfo" tabindex="0">
     {% pattern footer/footer %}
   </div>
 

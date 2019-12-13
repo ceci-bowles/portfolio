@@ -20,8 +20,12 @@
 <body>
 
   {% pattern sections/navigation %}
-  {{content}}
-  {% pattern footer/footer %}
+  <div id="main" role="main" tabindex="0">
+    {{content}}
+  </div>
+  <div class="" id="contact" role="contentinfo" tabindex="0">
+    {% pattern footer/footer %}
+  </div>
 
 </body>
 </html>

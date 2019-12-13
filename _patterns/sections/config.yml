@@ -14,30 +14,54 @@ patterns:
     - name: image
       type: string
       example: "placeholder"
+    - name: alt-1
+      type: string
+      example: "the glen stage 1 sketches"
     - name: image-1
       type: string
       example: "placeholder"
+    - name: alt-2
+      type: string
+      example: "the glen stage 2 sketches"
     - name: image-2
       type: string
       example: "placeholder"
+    - name: alt-3
+      type: string
+      example: "the glen app sketches"
     - name: image-3
       type: string
       example: "placeholder"
+    - name: alt-2
+      type: string
+      example: "the glen app design"
   portfolio-carasol-2:
     title: "Portfolio Carasol 2"
     fields:
     - name: image
       type: string
       example: "cat-cafe/7-website"
+    - name: alt-1
+      type: string
+      example: "the glen window"
     - name: image-1
       type: string
       example: "cat-cafe/7-website"
+    - name: alt-2
+      type: string
+      example: "the glen apron"
     - name: image-2
       type: string
       example: "cat-cafe/7-website"
+    - name: alt-3
+      type: string
+      example: "the glen mobile app"
     - name: image-3
       type: string
       example: "cat-cafe/7-website"
+    - name: alt-4
+      type: string
+      example: "the glen app screens"
   portfolio-icon-selectors:
     title: "Portfolio Icon Selectors"
     description: |
