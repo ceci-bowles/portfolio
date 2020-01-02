@@ -58,7 +58,7 @@ h3 {
 
 .portfolio-piece-icon {
   fill: var(--color-secondary-light);
-  transform: scale(0.8);
+  transform: scale(1);
 }
 
 .piece-description-dark {
