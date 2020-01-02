@@ -58,7 +58,7 @@ h3 {
 
 .portfolio-piece-icon {
   fill: var(--color-secondary-light);
-  transform: scale(1);
+  transform: scale(0.8);
 }
 
 .piece-description-dark {
@@ -100,12 +100,12 @@ a:focus {
 
 .carousel-btn {
   border: 3px solid var(--color-secondary-medium);
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .carousel-btn-2 {
   border: 3px solid var(--color-primary);
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 #peice-1-control:checked ~ .carousel-inner [for="peice-1-control"],
