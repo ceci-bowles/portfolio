@@ -100,12 +100,12 @@ a:focus {
 
 .carousel-btn {
   border: 3px solid var(--color-secondary-medium);
-  border-radius: 90%;
+  border-radius: 50%;
 }
 
 .carousel-btn-2 {
   border: 3px solid var(--color-primary);
-  border-radius: 90%;
+  border-radius: 50%;
 }
 
 #peice-1-control:checked ~ .carousel-inner [for="peice-1-control"],
